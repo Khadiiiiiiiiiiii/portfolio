@@ -1,0 +1,46 @@
+.home-section {
+  overflow: hidden;
+}
+
+.full-height-img {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.right h1 {
+  font-size: 3.5rem;
+}
+
+.right p {
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.line {
+  display: inline-block;
+  width: 550px;
+  height: 3px;
+  background-color: white;
+  vertical-align: middle;
+  margin-left: 10px;
+  transition: width 0.3s ease;
+}
+
+.explore-button {
+  background-color: white;
+  color: black;
+}
+
+.explore-button:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.3s;
+  border: #000000 1px solid;
+}
